@@ -1,0 +1,5 @@
+<div *ngFor="let item of tasks; let i = index">
+  <button [routerLink]="['/home/task-item/', i + 1]">
+    <span>{{ item.title }}</span>
+  </button>
+</div>

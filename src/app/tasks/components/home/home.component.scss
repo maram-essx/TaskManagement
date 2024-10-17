@@ -1,0 +1,13 @@
+article {
+  background-color: rgb(245, 227, 237);
+
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+  }
+}
